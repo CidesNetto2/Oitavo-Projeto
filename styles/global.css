@@ -36,3 +36,11 @@ body {
   background-color: var(--gray-200);
 }
 
+#social_media {
+  display: flex;
+  gap: 8px;
+}
+
+#social_media p {
+  align-items: center;
+}
