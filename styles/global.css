@@ -41,6 +41,24 @@ body {
   gap: 8px;
 }
 
-#social_media p {
+#social_media span {
   align-items: center;
+}
+
+.content-tag {
+  display: flex;
+  gap: 8px;
+  background-color: var(--gray-300);
+  padding: 9px 16px;
+  border-radius: 99px;
+  font: var(--text-md);
+  letter-spacing: 0.04em;
+  color: var(--gray-500);
+}
+
+#bg-1 {
+  background-image: url(../assets/Backgrounds/Background_Contacts.png);
+  background-repeat: no-repeat;
+  width: 1366px;
+  height: 750px;
 }
