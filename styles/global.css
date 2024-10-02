@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+
+
 :root {
   /* Principal */
   --red:#E3646E;
@@ -36,12 +38,7 @@ body {
   background-color: var(--gray-200);
 }
 
-#social_media {
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-  margin-top: 69px;
-}
+
 
 #down {
   display: flex;
@@ -50,25 +47,6 @@ body {
   margin-bottom: 57px;
 }
 
-.content-tag {
-  display: flex;
-  gap: 8px;
-  background-color: var(--gray-300);
-  padding: 9px 16px;
-  border-radius: 99px;
-  font: var(--text-md);
-  letter-spacing: 0.04em;
-  color: var(--gray-500);
-  align-items: center;
-}
-
-.img-bg {
-  background-image: url(../assets/Backgrounds/Background_Contacts.png);
-  position: relative;
-  width: 1366px;
-  height: 750px;
-  background-size: cover;
-}
 
 .title-md {
   font: var(--title-md);
@@ -76,9 +54,16 @@ body {
   text-align: center;
 }
 
+.title-sm {
+  font: var(--title-sm);
+  color: var(--gray-600);
+  /* text-align: center; */
+}
+
+
 .title-md2 {
   font: var(--title-md);
-  color: #E2E4E9;
+  color: var(--gray-600);
   text-align: center;
   margin-bottom: 56px;
 }
@@ -88,6 +73,21 @@ body {
   font: var(--text-sm);
   text-align: center;
   margin-top: 20px;
+}
+
+.text-sm2 {
+  color: var(--gray-500);
+  font: var(--text-sm);
+  /* text-align: center;
+  margin-top: 20px; */
+}
+
+.text-md {
+  font: var(--text-md);
+  color: var(--gray-500);
+  margin-top: 8px;
+  margin-bottom: 48px;
+  text-align: center;
 }
 
 .title-lg {
@@ -122,33 +122,26 @@ body {
   color: #C0C4CE;
 }
 
-.layout-container {
-  display: grid;
-  grid-template-columns: repeat(3, 0fr);
-  gap: 24px;
-  justify-content: center;
+.subtitle3 {
+  text-align: center;
+  padding-top: 88px;
+  font: var(--subtitle);
+  color: var(--red);
+  margin-bottom: 8px;
 }
 
-.project {
-  display: flex;
-  flex-direction: column;
-  background-color: #292C34;
-  border-radius: 12px;
-  padding: 12px;
-  width: 100%;
-  max-width: 330px;
-  height: 100%;
-  max-height: 280px;
-  justify-content: space-between;
-  margin-bottom: 24px;
+.subtitle4 {
+  text-align: center;
+  padding-top: 128px;
+  font: var(--subtitle);
+  color: var(--purple);
+  margin-bottom: 8px;
 }
 
-.project img {
-  border-radius: 8px;
-}
-
-.project h1 {
-  margin-top: 20px;
+.title-md3 {
+  font: var(--title-md);
+  color: var(--gray-600);
+  text-align: center;
 }
 
 #intro2 {
@@ -157,3 +150,26 @@ body {
   max-height: 917px;
   height: 100%;
 }
+
+#intro3 {
+  width: 100%;
+  max-width: 1366px;
+  height: 100%;
+  max-height: 480px;
+  background-color: var(--gray-100);
+}
+
+#intro4 {
+  background-image: url(../assets/Backgrounds/Background_Intro.png);
+  position: relative;
+  width: 1366px;
+  height: 787px;
+  background-size: cover;
+}
+
+.footerbox {
+  grid-area: text;
+  width: 288px;
+  height: 22px;
+}
+
